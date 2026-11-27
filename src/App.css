@@ -1,5 +1,7 @@
 @import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
 
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+
 * {
     margin: 0;
     padding: 0;
@@ -10,12 +12,14 @@
 /* 배경 */
 body {
     min-height: 100vh;
-    padding: 0 16px;
+    margin: 0;
+    padding: 0;
     background: linear-gradient(135deg, #98b8ff 0%, #60a5fa 100%);
 }
 
-/* 날씨별 배경을 얹을 때 쓸 자리 (추가실습) */
+/* 날씨별 배경을 얹을 때 쓸 자리 */
 section {
+    width: 100%;
     min-height: 100vh;
     display: grid;
     place-items: center;
